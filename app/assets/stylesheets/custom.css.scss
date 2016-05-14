@@ -1,4 +1,9 @@
 // $navbar-margin-bottom: 0;
+$navbar-inverse-bg: rgba(44, 62, 80,1.0);
+$navbar-inverse-link-color: #fff;
+$navbar-inverse-link-hover-color: rgba(211, 84, 0,1.0);
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 @import "font-awesome-sprockets";
