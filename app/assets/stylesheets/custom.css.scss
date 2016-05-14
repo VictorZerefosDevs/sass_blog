@@ -4,15 +4,23 @@ $navbar-inverse-link-color: #fff;
 $navbar-inverse-link-hover-color: rgba(211, 84, 0,1.0);
 
 
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-// .center ul{
-// 	text-align: center;
-// }
-// #link li {
-// 	display: inline-block;
-// 	margin-right: 50px;
-// }
+
+// form styling
+.btn-default:hover {
+	border-color: rgba(52, 152, 219,1.0);
+	&.btn-default {
+		background-color: white;
+	}
+}
+.btn-default {
+		border-radius: 50px;
+}
+// end of form styling
+
